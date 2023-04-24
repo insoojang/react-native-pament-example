@@ -1,7 +1,10 @@
 import React from 'react'
 import { ConFirmTitle, Container, NextButtonContainer, PhoneNumberInput, SubTitle, Title } from './CertificationMain'
+import { useNavigation } from '@react-navigation/native'
 
 const ConfirmPage = () => {
+    const navigation = useNavigation()
+
     return (
         <>
             <Container>
@@ -15,7 +18,7 @@ const ConfirmPage = () => {
                 />
                 <NextButtonContainer
                     onPress={() => {
-                        console.log('test')
+                        navigation.navigate('Certification')
                     }}
                 >
                     <ConFirmTitle>확인</ConFirmTitle>

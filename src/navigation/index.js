@@ -6,6 +6,8 @@ import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { TransitionPresets } from '@react-navigation/stack'
 import ConfirmPage from '../screen/certification/ConfirmPage'
+import Certification from '../screen/certification/Certification'
+import Payment from '../screen/payment/Payment'
 
 const BottomTabStack = createBottomTabNavigator()
 const Stack = createNativeStackNavigator()
@@ -51,7 +53,7 @@ const RootNavigation = () => {
     return (
         <Stack.Navigator>
             <Stack.Screen
-                name="인증"
+                name="home"
                 component={BottomTabNavigation}
                 options={{
                     headerShown: false,
@@ -68,6 +70,20 @@ const RootNavigation = () => {
                 }}
                 name="ConfirmPage"
                 component={ConfirmPage}
+            />
+            <Stack.Screen
+                name="Certification"
+                component={Certification}
+                // options={{
+                //     headerShown: false,
+                // }}
+            />
+            <Stack.Screen
+                name="Payment"
+                component={Payment}
+                // options={{
+                //     headerShown: false,
+                // }}
             />
         </Stack.Navigator>
     )

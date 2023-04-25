@@ -36,7 +36,7 @@ const Certification = (props) => {
     return (
         <SafeAreaView style={{ flex: 1, justifyContent: 'center', width: '100%' }}>
             <IMP.Certification
-                userCode={'imp46457356'}
+                userCode={'imp0000000'}
                 data={data}
                 loading={<Loading />}
                 callback={(response) => console.log('test@@@', response)}

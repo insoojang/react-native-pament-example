@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c83d8808-68bd-455a-95be-b737ad701e03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/eas.json" afterDir="false" />
+    <list default="true" id="c83d8808-68bd-455a-95be-b737ad701e03" name="Default Changelist" comment="[Fix]KG이니시스 결제 테스트 개발 #2">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screen/certification/Certification.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screen/certification/Certification.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screen/certification/Certification2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screen/payment/Payment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screen/payment/Payment.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +88,7 @@
       <workItem from="1682302761219" duration="378000" />
       <workItem from="1682303155149" duration="15597000" />
       <workItem from="1682377785476" duration="1822000" />
-      <workItem from="1682380484991" duration="8439000" />
+      <workItem from="1682380484991" duration="8874000" />
     </task>
     <task id="LOCAL-00001" summary="[Add]기본 레이아웃 구성(휴대폰 본인인증 페이지)">
       <created>1682061965925</created>
@@ -117,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682387482360</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[Fix]KG이니시스 결제 테스트 개발 #2">
+      <created>1682397501192</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682397501192</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +140,8 @@
     <MESSAGE value="[Add]기본 레이아웃 구성(휴대폰 본인인증 페이지)" />
     <MESSAGE value="[Add]결제/휴대폰 인증 테스트 개발" />
     <MESSAGE value="[Fix]KG이니시스 결제 테스트 개발" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fix]KG이니시스 결제 테스트 개발" />
+    <MESSAGE value="[Fix]KG이니시스 결제 테스트 개발 #2" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Fix]KG이니시스 결제 테스트 개발 #2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

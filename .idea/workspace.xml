@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c83d8808-68bd-455a-95be-b737ad701e03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navigation/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screen/certification/CertificationMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screen/certification/CertificationMain.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screen/certification/ConfirmPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screen/certification/ConfirmPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screen/payment/PaymentMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screen/payment/PaymentMain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screen/certification/Certification.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screen/certification/Certification.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screen/payment/Payment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screen/payment/Payment.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +60,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/screen/certification" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\doosan\workspace\app\my-app\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -87,7 +88,9 @@
       <workItem from="1682290485474" duration="1322000" />
       <workItem from="1682294240802" duration="1803000" />
       <workItem from="1682302761219" duration="378000" />
-      <workItem from="1682303155149" duration="14811000" />
+      <workItem from="1682303155149" duration="15597000" />
+      <workItem from="1682377785476" duration="1822000" />
+      <workItem from="1682380484991" duration="4208000" />
     </task>
     <task id="LOCAL-00001" summary="[Add]기본 레이아웃 구성(휴대폰 본인인증 페이지)">
       <created>1682061965925</created>
@@ -96,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682061965925</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[Add]결제/휴대폰 인증 테스트 개발">
+      <created>1682323486561</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682323486561</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,18 +126,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[Add]기본 레이아웃 구성(휴대폰 본인인증 페이지)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Add]기본 레이아웃 구성(휴대폰 본인인증 페이지)" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/screen/payment/Payment.js</url>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="[Add]결제/휴대폰 인증 테스트 개발" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Add]결제/휴대폰 인증 테스트 개발" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -11,7 +11,7 @@ const Certification = (props) => {
     const data = {
         carrier: '64900',
         company: '두산 에너빌리티',
-        merchant_uid: `mid_MIIiasTest`,
+        merchant_uid: `mid_${new Date().getTime()}`,
         name: '장인수',
         phone: '010-7122-2846',
         pg: 'html5_inicis',
@@ -22,6 +22,16 @@ const Certification = (props) => {
                 <Text fontSize={20}>잠시만 기다려주세요...</Text>
             </View>
         )
+    }
+    const callback = (response) => {
+        const { success, error_msg } = response
+        if (success) {
+            console.log('@@@인증 성공')
+            alert('인증 성공')
+        } else {
+            console.log('@@@인증 실패', error_msg)
+            alert(`인증 실패: ${error_msg}`)
+        }
     }
     return (
         <SafeAreaView style={{ flex: 1, justifyContent: 'center', width: '100%' }}>

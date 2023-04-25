@@ -7,8 +7,9 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "build:android": "npx expo build:android --release-channel dev",
-    "publish": "expo publish --release-channel dev"
+    "build:android": "eas build --platform android",
+    "build:ios": "eas build --platform ios",
+    "publish": "eas update --branch test"
   },
   "dependencies": {
     "@expo/webpack-config": "^18.0.1",
@@ -30,7 +31,8 @@
     "react-native-screens": "~3.20.0",
     "react-native-web": "~0.18.10",
     "react-native-webview": "^12.0.2",
-    "styled-components": "^5.3.9"
+    "styled-components": "^5.3.9",
+    "expo-updates": "~0.16.4"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

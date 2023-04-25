@@ -74,16 +74,16 @@ const RootNavigation = () => {
             <Stack.Screen
                 name="Certification"
                 component={Certification}
-                // options={{
-                //     headerShown: false,
-                // }}
+                options={{
+                    headerTitle: '인증해주세요.',
+                }}
             />
             <Stack.Screen
                 name="Payment"
                 component={Payment}
-                // options={{
-                //     headerShown: false,
-                // }}
+                options={{
+                    headerTitle: '결제해주세요.',
+                }}
             />
         </Stack.Navigator>
     )

@@ -19,7 +19,8 @@ const CertificationMain = () => {
                 />
                 <NextButtonContainer
                     onPress={() => {
-                        navigation.navigate('ConfirmPage')
+                        // navigation.navigate('ConfirmPage')
+                        navigation.navigate('Certification')
                     }}
                 >
                     <ConFirmTitle>확인</ConFirmTitle>

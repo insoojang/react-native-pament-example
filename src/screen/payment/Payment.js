@@ -37,7 +37,7 @@ const Payment = (props) => {
     }
     return (
         <SafeAreaView style={{ flex: 1, justifyContent: 'center', width: '100%' }}>
-            <IMP.Payment userCode={'imp0000000'} data={data} loading={<Loading />} callback={callback} />
+            <IMP.Payment userCode={'imp46457356'} data={data} loading={<Loading />} callback={callback} />
         </SafeAreaView>
     )
 }

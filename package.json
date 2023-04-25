@@ -9,7 +9,7 @@
     "web": "expo start --web",
     "build:android": "eas build --platform android",
     "build:ios": "eas build --platform ios",
-    "publish": "eas update --branch test"
+    "publish": "eas update --branch prod"
   },
   "dependencies": {
     "@expo/webpack-config": "^18.0.1",
